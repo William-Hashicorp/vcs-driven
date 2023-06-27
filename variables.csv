@@ -1,0 +1,4 @@
+key,value,category,hcl,sensitive
+prefix,tfc-demo-001,terraform,FALSE,FALSE
+AWS_ACCESS_KEY_ID,<put your own key>,env,FALSE,FALSE
+AWS_SECRET_ACCESS_KEY,<put your own key>,env,FALSE,TRUE

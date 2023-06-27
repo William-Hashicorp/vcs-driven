@@ -1,0 +1,19 @@
+{
+  "data": {
+    "type": "notification-configuration",
+    "attributes": {
+      "destination-type": "generic",
+      "enabled": true,
+      "name": "Webhook server test",
+      "url": "https://httpstat.us/200",
+      "triggers": [
+        "run:applying",
+        "run:completed",
+        "run:created",
+        "run:errored",
+        "run:needs_attention",
+        "run:planning"
+      ]
+    }
+  }
+}

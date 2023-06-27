@@ -1,0 +1,17 @@
+{
+    "data":
+    {
+      "attributes": {
+        "name":"placeholder",
+        "vcs-repo":{
+            "identifier": "vcs_repo",
+            "oauth-token-id":"oauth_token",
+            "branch": ""
+        },
+        "auto-apply": "true",
+        "queue-all-runs": "true",
+        "terraform-version": "1.0.5"
+      },
+      "type":"workspaces"
+    }
+  }
